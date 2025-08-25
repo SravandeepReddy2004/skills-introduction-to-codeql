@@ -11,7 +11,6 @@ default_books = [
     ("A Game of Thrones", "George R. R. Martin", True),
     ("The Way of Kings", "Brandon Sanderson", False)
 ]
-
 if __name__ == "__main__":
     cursor.execute(
         '''CREATE TABLE books (name text, author text, read text)'''
