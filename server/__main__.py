@@ -21,7 +21,6 @@ if __name__ == "__main__":
                 'INSERT INTO books values (?, ?, ?)',
                 (bookname, bookauthor, 'true' if hasread else 'false')
             )
-
         except Exception as err:
             print(f'[!] Error Occurred: {err}')
 
