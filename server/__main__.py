@@ -4,7 +4,6 @@ sys.path.append('.')
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
 from server.routes import *
-
 default_books = [
     ("The Hobbit", "JRR Tolkien", True),
     ("The Fellowship of the Ring", "JRR Tolkien", True),
