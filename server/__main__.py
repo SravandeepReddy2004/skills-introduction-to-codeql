@@ -1,7 +1,6 @@
 import os
 import sys
 sys.path.append('.')
-
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
 from server.routes import *
